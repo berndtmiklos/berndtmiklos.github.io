@@ -23,22 +23,27 @@
 		display: inline-block;
 
 	}
-	
-	a:data-attr="img" {
-	background-color:white;
-	}
-	
 	p {
 		font-family: AppleGothic;
 	}
 	img {
 	border:1 px solid #ddd;
 	border-radius: 4px;
-	padding: 5px;
-	width: 200px;
+	padding: 1px;
+	width: 150px;
 	}
 	img:hover {
-	box-shadow: 0 0 2px lightgray;
+	box-shadow: 0 0 10px gray;
+	}
+	#pic {
+	background-color: white;
+	color: black;
+	padding: 0px;
+	font-family: AppleGothic;
+	font-size: 100%;
+	text-align: left;
+	text-decoration: none;
+	display: inline-block;
 	}
 	</style>
 <meta charset="UTF-8">
@@ -50,6 +55,8 @@
 	<a href="https://berndtmiklos.github.io" style="margin:15px;">Videók</a>			
 	<a href="./naplo.html">Napló</a>
   <p style="margin:15px;font-size:120%;"><b style="font-size: 120%">2019 Szeptember</b></p>
-  <a data-attr="img" href="./2540.jpeg"><img src="./2540.jpeg"></a>
+  <p style="margin:15px">
+  <a id="pic" href="./2540.jpeg"><img src="./2540.jpeg"></a>
+  </p>
 </body>
 </html>
